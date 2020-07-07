@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BGMAIN"
+
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.qrscanner.qira.MainActivity">
+
+    <Button
+        android:id="@+id/scan_btn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="200dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/roundedbuttonmainmenu"
+        android:fontFamily="@font/michroma"
+        android:text="Scan"
+        android:textColor="#C3F3BB"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/view_btn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="200dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/roundedbuttonmainmenu"
+        android:fontFamily="@font/michroma"
+        android:text="View Data"
+        android:textColor="#C3F3BB"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/roundedbuttonmainmenu"
+        android:fontFamily="@font/michroma"
+        android:text="Delete  QR  Data"
+        android:textColor="#C3F3BB"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/qrmaker_btn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/roundedbuttonmainmenu"
+        android:fontFamily="@font/michroma"
+        android:text="QR Maker"
+        android:textColor="#C3F3BB"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/michroma"
+        android:text="@string/appmenuname"
+        android:textColor="#5B439E46"
+        android:textSize="62dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/michroma"
+        android:text="@string/appmenuname"
+        android:textColor="#478849"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="* Find Your QR *"
+        android:textColor="#64B55A"
+        android:textSize="9sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

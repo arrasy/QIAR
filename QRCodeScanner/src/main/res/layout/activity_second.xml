@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1DCFF"
+    tools:context="com.example.qrscanner.qira.SecondActivity">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Scan Result "
+            android:textSize="13dp"
+            android:textColor="#3D783F"
+            android:fontFamily="@font/press_start_2p"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#3D783D"
+            android:text="Result"
+            android:textSize="15dp"
+            android:id="@+id/result_txt"
+            />
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="248dp"
+            android:background="@drawable/roundedbutton"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Save"
+            android:textColor="#B3E8B3"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/ignore_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="248dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="75dp"
+            android:background="@drawable/roundedbutton"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Ignore"
+            android:textColor="#B3E8B3"
+            android:textSize="10sp" />
+
+
+
+</RelativeLayout>

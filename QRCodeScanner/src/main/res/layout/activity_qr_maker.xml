@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#CDF4EF"
+    tools:context="com.example.qrscanner.qira.QrMaker">
+
+
+    <Button
+        android:id="@+id/btn_generate"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:text="Generate"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/press_start_2p"
+        android:textColor="#B3E8B3"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/edit_qr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:hint="Make Your Own QR"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+</RelativeLayout>
